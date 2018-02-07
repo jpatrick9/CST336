@@ -1,4 +1,4 @@
-    header, nav, footer, #content {
+    header, nav{
         width: 960px;
         margin: 0px auto; 
         text-align: center; 
@@ -38,6 +38,16 @@
          transition: .9s;
     }
     
+    img{
+        border-radius: 20px;
+    }
+    
+    footer, #content {
+        width: 960px;
+        margin: 0px auto; 
+        text-align: center; 
+    }
+    
      #content2, #content4, #content6{
         width: 1200px;
         margin: 0px auto; 
@@ -54,6 +64,10 @@
         padding-top:  50px;
         width:400px;
         font-size: 1.3em;
+    }
+    
+    video{
+        border-radius: 20px;
     }
     
     table {
@@ -76,4 +90,13 @@
     
     section{
         border-style:dashed;
+    }
+    
+    footer{
+        border: 2px white;
+        outline-style: double;
+    }
+    
+    aside{
+        border-style: groove;
     }
