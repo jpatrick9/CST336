@@ -1,0 +1,79 @@
+    header, nav, footer, #content {
+        width: 960px;
+        margin: 0px auto; 
+        text-align: center; 
+    }
+    
+    #content3, #content5, #content7{
+        width: 1200px;
+        margin: 0px auto; 
+        text-align: center; 
+    }
+    
+    body {
+        background-color: #6A8082;
+        color: white;
+    }
+    
+    footer {
+        color: white;
+        clear: left;
+    }
+    
+    h2 {
+        font-family: 'Comic Sans MS', cursive;
+    }
+
+    nav a {
+        padding:15px;
+        padding-bottom:4px;
+        font-size: 1.8em;
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav a:hover, #currentPage {  
+         border-bottom:2px gold solid;
+         font-size: 2em;
+         transition: .9s;
+    }
+    
+     #content2, #content4, #content6{
+        width: 1200px;
+        margin: 0px auto; 
+        text-align: center; 
+    }
+    
+    aside, section {
+        float:left;
+    }
+    
+    aside {
+        text-align: left;
+        padding-left: 10px;
+        padding-top:  50px;
+        width:400px;
+        font-size: 1.3em;
+    }
+    
+    table {
+        margin: 0px auto;
+        width: 960px;
+    }
+    
+    ul {
+        text-align: left;
+        padding-left: 200px;
+    }
+    
+    #table-header {
+        background-color: #1E96A4;
+    }
+    
+    .table-row {
+        background-color: #489098;
+    }
+    
+    section{
+        border-style:dashed;
+    }
