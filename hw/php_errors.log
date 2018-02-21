@@ -1,0 +1,120 @@
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 8
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:8
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 9
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:9
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 8
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:8
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 9
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:9
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 8
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:8
+[21-Feb-2018 18:46:55 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 9
+[21-Feb-2018 18:46:55 UTC] PHP Stack trace:
+[21-Feb-2018 18:46:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 18:46:55 UTC] PHP   2. array_push() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:9
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 79
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:79
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:02:37 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:02:37 UTC] PHP Stack trace:
+[21-Feb-2018 19:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:02:37 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:03:27 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:03:27 UTC] PHP Stack trace:
+[21-Feb-2018 19:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:03:27 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:03:27 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 83
+[21-Feb-2018 19:03:27 UTC] PHP Stack trace:
+[21-Feb-2018 19:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:03:27 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:83
+[21-Feb-2018 19:03:27 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 87
+[21-Feb-2018 19:03:27 UTC] PHP Stack trace:
+[21-Feb-2018 19:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:03:27 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:87
+[21-Feb-2018 19:03:27 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 87
+[21-Feb-2018 19:03:27 UTC] PHP Stack trace:
+[21-Feb-2018 19:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:03:27 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:87
+[21-Feb-2018 19:04:39 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 87
+[21-Feb-2018 19:04:39 UTC] PHP Stack trace:
+[21-Feb-2018 19:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:04:39 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:87
+[21-Feb-2018 19:04:39 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 87
+[21-Feb-2018 19:04:39 UTC] PHP Stack trace:
+[21-Feb-2018 19:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:04:39 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:87
+[21-Feb-2018 19:04:39 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 91
+[21-Feb-2018 19:04:39 UTC] PHP Stack trace:
+[21-Feb-2018 19:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:04:39 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:91
+[21-Feb-2018 19:04:39 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 91
+[21-Feb-2018 19:04:39 UTC] PHP Stack trace:
+[21-Feb-2018 19:04:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:04:39 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:91
+[21-Feb-2018 19:08:44 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 97
+[21-Feb-2018 19:08:44 UTC] PHP Stack trace:
+[21-Feb-2018 19:08:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:08:44 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:97
+[21-Feb-2018 19:09:59 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 97
+[21-Feb-2018 19:09:59 UTC] PHP Stack trace:
+[21-Feb-2018 19:09:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:09:59 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:97
+[21-Feb-2018 19:11:48 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 97
+[21-Feb-2018 19:11:48 UTC] PHP Stack trace:
+[21-Feb-2018 19:11:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:11:48 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:97
+[21-Feb-2018 19:19:52 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, null given in /home/ubuntu/workspace/jpatrick/hw/hw2/index.php on line 98
+[21-Feb-2018 19:19:52 UTC] PHP Stack trace:
+[21-Feb-2018 19:19:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:0
+[21-Feb-2018 19:19:52 UTC] PHP   2. array_sum() /home/ubuntu/workspace/jpatrick/hw/hw2/index.php:98
