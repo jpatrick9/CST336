@@ -1,0 +1,1 @@
+[25-Feb-2018 07:21:23 UTC] PHP Parse error:  syntax error, unexpected 'ucfirst' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jpatrick/labs/lab2/index.php on line 54
