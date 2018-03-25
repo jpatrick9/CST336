@@ -1,1 +1,27 @@
 [25-Feb-2018 07:21:23 UTC] PHP Parse error:  syntax error, unexpected 'ucfirst' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jpatrick/labs/lab2/index.php on line 54
+[25-Mar-2018 04:50:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.types' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab5/main.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab5/main.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab5/main.php(99): getAllTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab5/main.php on line 11
+[25-Mar-2018 05:59:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.types' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab5a/main.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab5a/main.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab5a/main.php(87): getAllTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab5a/main.php on line 11
+[25-Mar-2018 05:59:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jpatrick/labs/lab5a/checkout.php on line 5
+[25-Mar-2018 05:59:25 UTC] PHP Stack trace:
+[25-Mar-2018 05:59:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab5a/checkout.php:0
+[25-Mar-2018 05:59:25 UTC] PHP   2. displayItems() /home/ubuntu/workspace/jpatrick/labs/lab5a/checkout.php:52
+[25-Mar-2018 06:00:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.types' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab5/index.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab5/index.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab5/index.php(87): getAllTypes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab5/index.php on line 11
+[25-Mar-2018 06:00:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jpatrick/labs/lab5/checkout.php on line 5
+[25-Mar-2018 06:00:17 UTC] PHP Stack trace:
+[25-Mar-2018 06:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab5/checkout.php:0
+[25-Mar-2018 06:00:17 UTC] PHP   2. displayItems() /home/ubuntu/workspace/jpatrick/labs/lab5/checkout.php:52

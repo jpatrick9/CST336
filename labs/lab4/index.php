@@ -1,10 +1,10 @@
 <?php
 
- //print_r($_GET); //displaying all content submitted in the form using the GET method
+ //print_r($_GET); //displays submitted content
 
   $backgroundImage = "img/sea.jpg";
     
-  if (isset($_GET['keyword'])) { //if form was submitted
+  if (isset($_GET['keyword'])) { //if form was correctly submitted
       
       include 'api/pixabayAPI.php';
       
@@ -13,13 +13,13 @@
       $orientation = "horizontal";
       $keyword = $_GET['keyword'];
       
-      if (isset($_GET['layout'])) {  //user checked a layout
+      if (isset($_GET['layout'])) {  //user layout
         
         $orientation = $_GET['layout'];
         
       }
       
-      if (!empty($_GET['category'])) { //user selected a category
+      if (!empty($_GET['category'])) { //user's category
         $keyword = $_GET['category'];
       }
       
