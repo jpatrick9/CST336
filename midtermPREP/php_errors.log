@@ -1,0 +1,20 @@
+[28-Mar-2018 20:37:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'problem2'' in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php on line 8
+[28-Mar-2018 20:45:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'problem2'' in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php on line 8
+[28-Mar-2018 20:53:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'problem2'' in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php on line 8
+[28-Mar-2018 20:53:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'problem2'' in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/midtermPREP/workspace/problem2.php on line 8

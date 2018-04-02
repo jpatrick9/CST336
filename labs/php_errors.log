@@ -25,3 +25,108 @@ Stack trace:
 [25-Mar-2018 06:00:17 UTC] PHP Stack trace:
 [25-Mar-2018 06:00:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab5/checkout.php:0
 [25-Mar-2018 06:00:17 UTC] PHP   2. displayItems() /home/ubuntu/workspace/jpatrick/labs/lab5/checkout.php:52
+[01-Apr-2018 22:35:21 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 22:35:21 UTC] PHP Stack trace:
+[01-Apr-2018 22:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 22:35:21 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 22:35:21 UTC] PHP Stack trace:
+[01-Apr-2018 22:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 22:35:21 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 5
+[01-Apr-2018 22:35:21 UTC] PHP Stack trace:
+[01-Apr-2018 22:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:23:24 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:23:24 UTC] PHP Stack trace:
+[01-Apr-2018 23:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:23:24 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:23:24 UTC] PHP Stack trace:
+[01-Apr-2018 23:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:23:24 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 5
+[01-Apr-2018 23:23:24 UTC] PHP Stack trace:
+[01-Apr-2018 23:23:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:24:13 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:24:13 UTC] PHP Stack trace:
+[01-Apr-2018 23:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:24:13 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:24:13 UTC] PHP Stack trace:
+[01-Apr-2018 23:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:24:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 5
+[01-Apr-2018 23:24:13 UTC] PHP Stack trace:
+[01-Apr-2018 23:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:25:27 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:25:27 UTC] PHP Stack trace:
+[01-Apr-2018 23:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:25:27 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[01-Apr-2018 23:25:27 UTC] PHP Stack trace:
+[01-Apr-2018 23:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[01-Apr-2018 23:25:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 5
+[01-Apr-2018 23:25:27 UTC] PHP Stack trace:
+[01-Apr-2018 23:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[02-Apr-2018 00:54:44 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[02-Apr-2018 00:54:44 UTC] PHP Stack trace:
+[02-Apr-2018 00:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[02-Apr-2018 00:54:44 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 3
+[02-Apr-2018 00:54:44 UTC] PHP Stack trace:
+[02-Apr-2018 00:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[02-Apr-2018 00:54:44 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 5
+[02-Apr-2018 00:54:44 UTC] PHP Stack trace:
+[02-Apr-2018 00:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:0
+[02-Apr-2018 01:18:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 01:58:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 01:58:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 01:58:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 09:51:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 09:52:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 09:52:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(111): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 13
+[02-Apr-2018 09:55:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(110): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 12
+[02-Apr-2018 09:55:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(110): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 12
+[02-Apr-2018 10:04:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(110): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 12
