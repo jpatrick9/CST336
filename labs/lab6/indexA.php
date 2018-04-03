@@ -1,5 +1,5 @@
 <?php
- include '../../dbConnection.php';
+ include '../dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
 
@@ -137,6 +137,6 @@
             CST 336. 2018&copy; Josh Patrick<br />
             <strong>Disclaimer: </strong> The information is this webpage is fictitous, <br />
             and used for academic purpose only.<br/>
-            <img src="../../img/logo.jpg" alt="Logo"/>
+            <img src="../img/logo.jpg" alt="Logo"/>
     </footer>
 </html>
