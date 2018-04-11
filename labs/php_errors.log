@@ -215,3 +215,6 @@ Stack trace:
 #0 /home/ubuntu/workspace/jpatrick/labs/lab7/deleteProduct.php(10): PDOStatement->execute()
 #1 {main}
   thrown in /home/ubuntu/workspace/jpatrick/labs/lab7/deleteProduct.php on line 10
+[11-Apr-2018 04:09:20 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 64 bytes) in /home/ubuntu/workspace/jpatrick/labs/lab5/index.php on line 34
+[11-Apr-2018 04:09:20 UTC] PHP Stack trace:
+[11-Apr-2018 04:09:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab5/index.php:0

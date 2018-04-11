@@ -62,7 +62,6 @@ function displayAllProducts(){
             <input type="submit"  value="Logout"/>
         </form>
         
-        
         <br />
         <strong> Products: </strong> <br />
         
@@ -82,7 +81,5 @@ function displayAllProducts(){
         
         ?>
         
-        
-
     </body>
 </html>
