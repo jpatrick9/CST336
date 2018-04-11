@@ -202,3 +202,16 @@ Stack trace:
 #1 /home/ubuntu/workspace/jpatrick/labs/lab6/index.php(132): displaySearchResults()
 #2 {main}
   thrown in /home/ubuntu/workspace/jpatrick/labs/lab6/index.php on line 76
+[04-Apr-2018 21:59:06 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 21:59:06 UTC] PHP Stack trace:
+[04-Apr-2018 21:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php:0
+[04-Apr-2018 21:59:06 UTC] PHP   2. getCategories() /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php:55
+[04-Apr-2018 22:05:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php on line 11
+[04-Apr-2018 22:05:10 UTC] PHP Stack trace:
+[04-Apr-2018 22:05:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php:0
+[04-Apr-2018 22:05:10 UTC] PHP   2. getCategories() /home/ubuntu/workspace/jpatrick/labs/lab7/updateProduct.php:55
+[09-Apr-2018 21:58:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'om_product WHERE productId =' at line 1' in /home/ubuntu/workspace/jpatrick/labs/lab7/deleteProduct.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/jpatrick/labs/lab7/deleteProduct.php(10): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jpatrick/labs/lab7/deleteProduct.php on line 10

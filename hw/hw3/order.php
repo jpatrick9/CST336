@@ -61,7 +61,9 @@ Press submit to finish order. All orders will take a week to process and two to 
         Name: <input type="text" name="name"/>
         </br> 
         </br> 
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Give Up" />
+        
+        <input type="submit" value="Play Again" />
     </form>
 </body>
 
