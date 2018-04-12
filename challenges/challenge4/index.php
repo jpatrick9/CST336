@@ -30,16 +30,16 @@ if($guesses[$guessCount] == $number){
         
         <form action = "index.php" method = "post">
         
-        Your guess: <input type= "int" name = "guess"><br>
+        Your guess: <input type= "number" name = "guess"><br>
         
         <form><br>
-        $field = <input type="int" guess ="guess"/>;
+        <input type="number" guess ="guess"/>
 
         <input type="submit" name="Guess" value="Guess" onclick="Guess()" /> <br>
         <input type="submit" name="Give Up" value="Give Up" onclick="giveUp()" />
         <input type="submit" name="Play Again" value="Play Again" onclick="playAgain()" />
 
-</form>
+        </form>
 
         <form>
             
