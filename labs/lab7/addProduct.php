@@ -4,13 +4,13 @@ if(!isset( $_SESSION['adminName']))
 {
   header("Location:index.php");
 }
-include "../../dbConnection.php";
+include "dbConnection.php";
 $conn = getDatabaseConnection("ottermart");
 
 function getCategories() {
     global $conn;
     
-    $sql = "SELECT catId, catName from om_category ORDER BY catName";
+    $sql = "SELECT catId, catName from category ORDER BY catName";
     
     $statement = $conn->prepare($sql);
     $statement->execute();
@@ -27,7 +27,7 @@ if (isset($_GET['submitProduct'])) {
     $productPrice = $_GET['price'];
     $catId = $_GET['catId'];
     
-    $sql = "INSERT INTO om_product
+    $sql = "INSERT INTO product
             ( `productName`, `productDescription`, `productImage`, `price`, `catId`) 
              VALUES ( :productName, :productDescription, :productImage, :price, :catId)";
     
@@ -45,10 +45,28 @@ if (isset($_GET['submitProduct'])) {
 <html>
     <head>
         <title> Add a product </title>
+        <style>
+            form {
+                display: inline;
+            }
+            body {
+                text-align: center;
+                background-color: #58D68D;
+                color:red;
+                font-size: 125%;
+                background-repeat:no-repeat;
+                background-attachment:fixed;
+                background-position:center;
+            }
+        </style>
     </head>
     <body>
         <h1> Add a product</h1>
         <form>
+            <a href = "admin.php">Back</a>
+            </br>
+            </br>
+            </br>
             Product name: <input type="text" name="productName"><br>
             Description: <textarea name="description" cols = 50 rows = 4></textarea><br>
             Price: <input type="text" name="price"><br>
