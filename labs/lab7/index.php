@@ -10,6 +10,7 @@ function loginProcess() {
       
             $username = $_POST['username'];
             $password = sha1($_POST['password']);
+            
             $sql = "SELECT * 
             FROM admin
             WHERE username = :username
