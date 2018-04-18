@@ -10,7 +10,7 @@ $conn = getDatabaseConnection("ottermart");
 
 function displayAllProducts(){
     global $conn;
-    $sql="SELECT * FROM product";
+    $sql="SELECT * FROM om_product";
     $statement = $conn->prepare($sql);
     $statement->execute();
     $records = $statement->fetchAll(PDO::FETCH_ASSOC);
