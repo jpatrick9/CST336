@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JavaScript Quiz </title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+       <script>
+            
+            $(document).ready( function(){
+                
+                
+                  $("#submitBtn").click( function(){ 
+                      //alert(  $("#q1").val()  );
+                      
+                      if (  $("#q1").val().toUpperCase() == "SACRAMENTO"  ) {
+                          
+                         // alert("Correct!");
+                         
+                         $("#feedback1").html(" Correct! The capital is Sacramento!");
+                         
+                          
+                      } else {
+                          
+                         // alert("Incorrect!");
+                         
+                            $("#feedback1").html(" Incorrect! The capital is Sacramento!");
+                         
+                  
+                         
+                          
+                      }
+                      
+                      
+                      
+                  } );
+                
+                
+                
+            });
+            
+            $(document).ready( function(){
+                
+                
+                  $("#submitBtn").click( function(){ 
+                      //alert(  $("#q1").val()  );
+                      
+                      if (  $("#q2").val() == "option1"  ) {
+                          
+                         // alert("Correct!");
+                         
+                         $("#feedback2").html(" PIN PON PIN PON!!!");
+                         
+                          
+                      } else if( $("#q2").val() != "option2" ){
+                          
+                         // alert("Incorrect!");
+                         
+                            $("#feedback2").html(" Incorrect!");
+                         
+                  
+                         
+                          
+                      }
+                      
+                      
+                      
+                  } );
+                
+                
+                
+            });            
+            
+        </script>        
+    
+    </head>
+    <body>
+
+
+        1. What is the capital of California?
+        
+        <input id="q1" type="text">
+        
+        <div id="feedback1"></div>
+        
+        
+      <!--<button id="submitBtn"> Submit Quiz </button>-->
+        
+        <br>
+        
+        2. Which state is nearest California?
+        
+        <select>
+            <div id="q2" class="dropdown-content">
+                <option value="option1">Nevada</option>
+                 <option value="option2">Florida</option>
+                  <option value="option3">Mexico</option>
+              </div>
+        </select>
+        
+        <div id="feedback2"></div>
+        
+        
+                <button id="submitBtn"> Submit Quiz </button>
+
+        
+  <!--
+        1. What is the capital of California?
+        <br>
+        <input type="text">
+        
+        <button id = "submitBtn"> Submit</button>
+        
+        <br>
+
+        2. Which state is nearest California?
+
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Options</button>
+          <div id="myDropdown" class="dropdown-content">
+        <a href="#">Nevada</a>
+        <a href="#">Florida</a>
+        <a href="#">Mexico</a>
+          </div>
+        </div>
+ -->
+
+
+    </body>
+    
+  
+</html>
