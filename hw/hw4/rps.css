@@ -65,6 +65,71 @@ h2{
 	width: 22px;
 }
 
+#introScreen{
+	position:absolute;
+	z-index: 100;
+	width:600px;
+	height:400px;
+	background-color: white;
+
+}
+
+#introScreenContent{
+	width:600px;
+	height:400px;
+	padding: 20px;
+	background-color: black;
+	margin: 80 auto;
+	text-align: center;
+	color: white;
+
+}
+
+#endScreen{
+	position: absolute;
+	z-index:101;
+	width: 600px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.7);
+	display:none;
+}
+
+#endScreen h1{
+	color:black;
+	font-size:20px;
+}
+
+#endScreen h2{
+	color:black;
+	font-size:24px;
+}
+
+#endScreenContent{
+	width: 400px;
+	height: 200px;
+	padding: 20px;
+	background-color:white;
+	margin: 80 auto;
+	text-align: center;
+}
+
+.button{
+	padding: 10px;
+	border-radius: 10px;
+	width: 100px;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	font-size: 14pt;
+	background-color: #888888;
+	color:white;
+	margin:0 auto;
+}
+
+.button:hover{
+	background-color: #666666
+}
+
 #btnGo{
 	position: absolute;
 	left: 260px;
