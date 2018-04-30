@@ -1,5 +1,5 @@
 input[type=submit]  {
-    background-color: #8ee5bf !important; 
+    background-color: #4CAF50 !important; /* Green */
     border: none !important;
     color: white !important;
     padding: 15px 32px !important;
@@ -11,10 +11,14 @@ input[type=submit]  {
 
 body{
     text-align: center;
-    background-color: #8ee5bf !important;
+    background-color: #bfbdbf !important;
 }
 
 h1, form{
     color: #FFFFFF !important;
 }
 
+
+input[type=text] ,select, input {
+    color: black !important;
+}
