@@ -1,0 +1,11 @@
+/* Empty CSS file for your own CSS */
+body {
+    background-color: #D8D296;
+    color: #7D5259;
+}
+
+#ygo, #pkmn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -11,6 +11,23 @@
     </head>
 
     <body>
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+              <form id="signin" action="adminLogin.php" class="navbar-form navbar-right" role="form" method="post">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            <input id="username" type="text"  name="username" placeholder="username">                                        
+                        </div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            <input id="password" type="password" name="password" placeholder="Password">                                        
+                        </div>
+                        <input type="submit" id="login-submit"  name="login-submit" value="Login"></input>
+                   </form>
+            </div>
+        </nav>
+        
         <header>
             <h1> CSUMB Trading Card Emporium</h1>
         </header>
@@ -48,7 +65,6 @@
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always 
         trying to change-->
-
     </body>
     <!-- closing body -->
 
