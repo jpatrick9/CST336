@@ -10,7 +10,7 @@
         <style>
             body {
                 text-align: center;
-                background-color: #E4FFDB;
+                background-color: #afceff;
             }
             /*.carousel {*/
             /*  width:400px;*/
