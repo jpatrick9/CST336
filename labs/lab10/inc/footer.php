@@ -1,2 +1,2 @@
- <strong>Disclaimer:</strong> All information of this website is fake. <br />
-        &copy; 2018 Ruben Vasquez
+ <strong>Disclaimer:</strong> All information in this website is ficticious and used for academic purposes only. <br />
+        &copy; Josh Patrick 2018 
