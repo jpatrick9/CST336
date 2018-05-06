@@ -10,6 +10,14 @@
         <style>
             body {
                 text-align: center;
+                background-color: #c8cec6;
+            }
+            /*.carousel {*/
+            /*  width:400px;*/
+            /*  height:400px;*/
+            /*}*/
+            .carousel-inner img {
+              margin: auto;
             }
         </style>
    
@@ -17,33 +25,24 @@
     <body>
         
 	<!--Add main menu here -->
-        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pets.php">Adoptions</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.php">About us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="index.php">Action</a>
-          <a class="dropdown-item" href="pets.php">Adoptions</a>
-          <a class="dropdown-item" href="about.php">About Us</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+          <a class="navbar-brand" href="http://csumb.edu">CSUMB</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li id = "homeLink" class="nav-item active">
+                <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li id = "adoptionsLink" class="nav-item">
+                <a class="nav-link" href="pets.php">Adoptions</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
         
+        <div class="jumbotron">
+          <h1> CSUMB Animal Shelter</h1>
+          <h2> The "official" animal adoption website of CSUMB </h2>
+        </div>
