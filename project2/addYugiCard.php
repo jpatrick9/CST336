@@ -24,16 +24,16 @@
         catch(PDOException $e){
             echo json_encode($sql . "<br>" . $e->getMessage());
         }
-        // try{
-        //     $sql2 = 'SHOW COLUMNS FROM cards';
-        //     $statement2 = $conn->prepare($sql2);
-        //     $statement2->execute();
-        //     $record = $statement2->fetchALL();
-        //     print_r($record);
-        // }
-        // catch(PDOException $er){
-        //     echo json_encode($sql2 . "<br>" . $er->getMessage());
-        // }
+        try{
+            $sql2 = 'SHOW COLUMNS FROM cards';
+            $statement2 = $conn->prepare($sql2);
+            $statement2->execute();
+            $record = $statement2->fetchALL();
+            print_r($record);
+        }
+        catch(PDOException $er){
+            echo json_encode($sql2 . "<br>" . $er->getMessage());
+        }
     }
 ?>
 
