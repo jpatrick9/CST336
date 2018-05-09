@@ -12,12 +12,13 @@
             $namedParameters[':cardImage'] = $_POST['itemPicURL'];
             $namedParameters[':typeName'] = $_POST['typeName'];
             $namedParameters[':cardRarity'] = $_POST['cardRarity'];
-            // $namedParameters['price'] = $_POST['price'];
-            // $namedParameters['quantityAvailable'] = $_POST['quantityAvailable'];
+            $namedParameters['price'] = $_POST['price'];
+            $namedParameters['quantityAvailable'] = $_POST['quantityAvailable'];
             $statement = $conn->prepare($sql);
             $result = $statement->execute($namedParameters);
-            print_r($result);
-            // header('Location: adminProfile.php');
+            if($result){
+            	header('Location: adminProfile.php');
+            }
         }
         catch(PDOException $e){
             echo json_encode($sql . "<br>" . $e->getMessage());
@@ -94,13 +95,13 @@
 					</label>
 					<input type="number" placeholder="1.0" step="0.01" name="price">
 				</div>
-				<!--<div class="form-group">-->
+				<div class="form-group">
 					 
-				<!--	<label for="quantity">-->
-				<!--		Item Quantity-->
-				<!--	</label>-->
-				<!--	<input type="number" placeholder="1" name="quantity">-->
-				<!--</div>-->
+					<label for="quantity">
+						Item Quantity
+					</label>
+					<input type="number" placeholder="1" name="quantity">
+				</div>
 				<input type="submit" name="addForm" value="Add Card">
 					
 				</input>

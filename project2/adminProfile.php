@@ -12,7 +12,8 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/adminProfile.js"></script>
   </head>
   <body>
 
@@ -21,6 +22,7 @@
 		<div class="col-md-12">
 		    <ul class="nav navbar-nav navbar-left">
                     <li><a href="main.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                    <li><a href="reports.php" id="reportsLink"><span class="glyphicon glyphicon-envelope"></span>Reports</a></li>
             </ul>
 		    <ul class="nav navbar-nav navbar-right">
                     <li><a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li> 
@@ -32,23 +34,23 @@
             <img id="ygo" src="img/1.png" alt="Yu-Gi-Oh!" style="height:225px;width:200px">
 			<a href="addYugiCard.php" class="btn btn-success">Add</a>
 				
-			<button type="button" class="btn btn-warning">
+			<a href="ygoCardList.php" type="button" class="btn btn-warning">
 				Edit
-			</button> 
-			<button type="button" class="btn btn-danger">
+			</a> 
+			<a href="ygoCardList.php" type="button" class="btn btn-danger">
 				Delete
-			</button>
+			<a>
 		</div>
 		<div class="col-md-6 text-center">
 			<img id="pkmn" src="img/2.png" alt="Pokemon" style="height:225px;width:200px">
 			<a href="addPokeCard.php" class="btn btn-success">Add</a>
 				
-			<button type="button" class="btn btn-warning">
+			<a href="pokeCardList.php" type="button" class="btn btn-warning">
 				Edit
-			</button> 
-			<button type="button" class="btn btn-danger">
+			</a> 
+			<a href="pokeCardList.php" type="button" class="btn btn-danger">
 				Delete
-			</button>
+			</a>
 		</div>
 	</div>
 </div>

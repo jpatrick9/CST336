@@ -1,7 +1,7 @@
 <?php
     session_start();
     include 'dbConnection.php'; //include '../dbConnection.php';
-    $conn = getDatabaseConnection();
+    $conn = getDatabaseConnection('ygoCards');
     
     function getAllTypes(){
         global $conn;

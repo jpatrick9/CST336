@@ -3,6 +3,7 @@
         // code...
         include 'dbConnection.php';
         $conn = getDatabaseConnection('ygoCards');
+        
         try{
             $sql = 'INSERT INTO cards (itemName, description, cardImage, typeName, cardRarity) VALUES (:itemName, :description, :cardImage, :typeName, :cardRarity)';
             $namedParameters = array();
@@ -11,29 +12,30 @@
             $namedParameters[':cardImage'] = $_POST['itemPicURL'];
             $namedParameters[':typeName'] = $_POST['typeName'];
             $namedParameters[':cardRarity'] = $_POST['cardRarity'];
-            // $namedParameters[':price'] = $_POST['price'];
-            // $namedParameters[':quantityAvailable'] = $_POST['quantityAvailable'];
+            $namedParameters[':price'] = $_POST['price'];
+            $namedParameters[':quantityAvailable'] = $_POST['quantityAvailable'];
             $statement = $conn->prepare($sql);
             $result = $statement->execute($namedParameters);
             if($result){
-            	echo "Success";
+            	header('Location: adminProfile.php');
             }
-            echo $result;
+            // echo $result;
             // header('Location: adminProfile.php');
         }
+        
         catch(PDOException $e){
             echo json_encode($sql . "<br>" . $e->getMessage());
         }
-        try{
-            $sql2 = 'SHOW COLUMNS FROM cards';
-            $statement2 = $conn->prepare($sql2);
-            $statement2->execute();
-            $record = $statement2->fetchALL();
-            print_r($record);
-        }
-        catch(PDOException $er){
-            echo json_encode($sql2 . "<br>" . $er->getMessage());
-        }
+        // try{
+        //     $sql2 = 'SHOW COLUMNS FROM cards';
+        //     $statement2 = $conn->prepare($sql2);
+        //     $statement2->execute();
+        //     $record = $statement2->fetchALL();
+        //     print_r($record);
+        // }
+        // catch(PDOException $er){
+        //     echo json_encode($sql2 . "<br>" . $er->getMessage());
+        // }
     }
 ?>
 
@@ -59,7 +61,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
-			<form role="form" method="post">
+			<form role="form" method="post" >
 				<div class="form-group">
 					 
 					<label for="itemName">
@@ -103,20 +105,20 @@
                         <option value="super rare">Super Rare</option>
 					</select>
 				</div>	
-				<!--<div class="form-group">-->
+				<div class="form-group">
 					 
-				<!--	<label for="price">-->
-				<!--		Item Price -->
-				<!--	</label>-->
-				<!--	<input type="text" placeholder="1.0" step="0.01" name="price">-->
-				<!--</div>-->
-				<!--<div class="form-group">-->
+					<label for="price">
+						Item Price 
+					</label>
+					<input type="text" placeholder="1.0" step="0.01" name="price">
+				</div>
+				<div class="form-group">
 					 
-				<!--	<label for="quantity">-->
-				<!--		Item Quantity-->
-				<!--	</label>-->
-				<!--	<input type="text" placeholder="1" step="1" name="quantity">-->
-				<!--</div>-->
+					<label for="quantity">
+						Item Quantity
+					</label>
+					<input type="text" placeholder="1" step="1" name="quantity">
+				</div>
 				<input type="submit" name="addForm" value="Add Card">
 					
 				</input>
@@ -124,7 +126,6 @@
 		</div>
 	</div>
 </div>
-
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
